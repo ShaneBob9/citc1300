@@ -55,7 +55,7 @@ footer {
     border-top: 4px salmon;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 1 em;
+    font-size: 1em;
 }
 
 @media(min-width: 768px) {
@@ -87,7 +87,7 @@ footer {
 }
 
     .col img {
-        width: 200Spx;
+        width: 200px;
     }
     .main_img {
         display: block;
