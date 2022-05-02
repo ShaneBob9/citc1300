@@ -153,11 +153,11 @@ table {
     }
 
     section,aside {
-        width: 50%;
+        width: 100%;
     }
     
     aside img {
-        width: 50%;
+        width: 100%;
     }
 
     .col img {
