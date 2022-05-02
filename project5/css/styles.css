@@ -7,11 +7,13 @@ img {
     display: block;
     max-width: 100%;
     margin: 0 auto;
-
 }
 
 
+
+
 /* Mobile Styles */
+
 
 #container {
     background-color: #000;
@@ -25,7 +27,7 @@ header {
 }
 
 header h1 {
-    color: #25B8D9;
+    color: white;
     text-shadow: 2px 2px 2px #000;
     text-align: center;
 }
@@ -117,15 +119,6 @@ audio, video {
 
 table {
     display: none;
-
-    .flex-container {
-        display: flex;
-        flex-flow: row;
-        align-items: center;
-        justify-content: center;
-        height:100%;
-        width:100%;
-        position:absolute;
 }
 
 /* Tablet Styles */
@@ -156,6 +149,7 @@ table {
 
     #upper_flex {
         display: flex;
+        align-content: center;  
     }
 
     section,aside {
@@ -172,17 +166,7 @@ table {
         border: solid #6c44a1;
     }
     single_col {
-        width: 95%;
-    
-        .flex-container {
-            display: flex;
-            flex-flow: row;
-            align-items: center;
-            justify-content: center;
-            height:100%;
-            width:100%;
-            position:absolute;
-    }
+        width: 95%;  
 }
 
 /* Desktop Styles */
@@ -190,11 +174,10 @@ table {
 @media(min-width: 1024px) {
     #container {
         align-items: center;
-        width: 75%;
+        width: 85%;
         margin: 20px auto;
         border: 4px solid #9bcede;
         border-radius: 20px;
-        
     }
 
     header {
@@ -204,11 +187,14 @@ table {
     nav li a {
         margin: 0 20px;
     }
-
     #lower_flex {
         display: flex;
     }
-
+    #upper-flex {
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
     .col {
         width: 100%;
     }
@@ -238,12 +224,5 @@ table {
     table {
         display: block;
     }
-    .flex-container {
-        display: flex;
-        flex-flow: row;
-        align-items: center;
-        justify-content: center;
-        height:100%;
-        width:100%;
-        position:absolute;
-      }
+
+}}
